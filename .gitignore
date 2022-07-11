@@ -3,3 +3,5 @@ plant_disease_diagnosis_competition/data/
 deeplearningzerotoall/PyTorch/
 The-Red_GNN/ignore/
 standalone_Deeplearning/Standalone-DeepLearning
+/inflearn_original/예제 소스 파일/.ipynb_checkpoints/
+.DS_Store
