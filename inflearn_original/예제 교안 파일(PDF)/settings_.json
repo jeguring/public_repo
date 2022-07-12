@@ -1,0 +1,111 @@
+// "explorer.confirmDragAndDrop": false,
+// "terminal.integrated.inheritEnv": false,
+
+{
+  "editor.fontSize": 15,
+  "editor.wordWrap": "on",
+  "notebook.lineNumbers": "on",
+  // "git.autofetch": true,
+  "jupyter.askForKernelRestart": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.iconTheme": "vscode-icons",
+  "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "comments": "#f7c096",
+      "textMateRules": [
+        {
+          "scope": [
+            "string.quoted.docstring.multi.python",
+            "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+            "string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+          ],
+          "settings": {
+            "foreground": "#96fcc1" //change to your preference
+          }
+        }
+      ]
+    }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "Quiz",
+    "!"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#f296a2",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#6272a4",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ]
+  // "workbench.colorCustomizations": {
+  //     "[Dracula]": {
+  //         "terminal.background":"#282936",
+  //         "terminal.foreground":"#E9E9F4",
+  //         "terminalCursor.background":"#E9E9F4",
+  //         "terminalCursor.foreground":"#E9E9F4",
+  //         "terminal.ansiBlack":"#282936",
+  //         "terminal.ansiBlue":"#62D6E8",
+  //         "terminal.ansiBrightBlack":"#626483",
+  //         "terminal.ansiBrightBlue":"#62D6E8",
+  //         "terminal.ansiBrightCyan":"#A1EFE4",
+  //         "terminal.ansiBrightGreen":"#EBFF87",
+  //         "terminal.ansiBrightMagenta":"#B45BCF",
+  //         "terminal.ansiBrightRed":"#EA51B2",
+  //         "terminal.ansiBrightWhite":"#F7F7FB",
+  //         "terminal.ansiBrightYellow":"#00F769",
+  //         "terminal.ansiCyan":"#A1EFE4",
+  //         "terminal.ansiGreen":"#EBFF87",
+  //         "terminal.ansiMagenta":"#B45BCF",
+  //         "terminal.ansiRed":"#EA51B2",
+  //         "terminal.ansiWhite":"#E9E9F4",
+  //         "terminal.ansiYellow":"#00F769"
+  //     }
+  // }
+}

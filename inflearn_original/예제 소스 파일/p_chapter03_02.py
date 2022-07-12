@@ -14,7 +14,7 @@ class Vector(object):
             self._x, self._y = args
 
     def __repr__(self):
-        '''Returns the vector infomations'''
+        '''Returns the vector information'''
         return 'Vector(%r, %r)' % (self._x, self._y)
 
     def __add__(self, other):
